@@ -1,0 +1,43 @@
+.banner {
+    background: url("Images/jumbotron.jpg");
+    no-repeat: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    color: #fff;
+}
+
+.col {
+    padding: 10px;
+}
+
+body {
+    line-height: 1, 5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.footer {
+    background-color: rgb(56, 56, 56);
+}
+
+.row {
+    padding: 20px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+}

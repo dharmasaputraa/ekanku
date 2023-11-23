@@ -1,0 +1,98 @@
+:root {
+    --bg-opacity: 1;
+    --border-opacity: 1;
+    --text-opacity: 1;
+}
+
+.card {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, var(--bg-opacity));
+    border-width: 1px;
+}
+
+.card .card-body {
+    padding: 1.5rem;
+}
+
+.card .card-footer {
+    border-top-width: 1px;
+    padding: 1.5rem;
+}
+
+.btn {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(178, 245, 234, var(--bg-opacity));
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.25rem;
+    color: rgba(49, 151, 149, var(--text-opacity));
+}
+
+.btn:hover {
+    background-color: rgba(129, 230, 217, var(--bg-opacity));
+    color: rgba(40, 94, 97, var(--text-opacity));
+}
+
+.btn-bs-primary {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #078be0;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.25rem;
+}
+
+.btn-bs-primary:hover {
+    opacity: 0.75;
+}
+
+.btn-bs-danger {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(245, 101, 101, var(--bg-opacity));
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.25rem;
+}
+
+.btn-bs-danger:hover {
+    opacity: 0.75;
+}
+
+.btn-bs-info {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(236, 201, 75, var(--bg-opacity));
+    color: rgba(255, 255, 255, var(--text-opacity));
+    display: block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.25rem;
+}
+
+.btn-bs-info:hover {
+    opacity: 0.75;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    height: 100vh;
+}
